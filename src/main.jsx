@@ -4,11 +4,13 @@ import './index.css'
 import App from './App.jsx'
 import AppOne from './AppOne.jsx'
 import AppTwo from './AppTwo.jsx'
+import AppThree from './AppThree.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
     {/* <AppOne /> */}
-    <AppTwo />
+    {/* <AppTwo /> */}
+    <AppThree />
   </StrictMode>,
 )
